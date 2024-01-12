@@ -1,0 +1,17 @@
+.box{
+    height: 70vh;
+}
+
+.carousel-item img{
+    height: 70vh;
+}
+.card-img-top{
+    height: 30vh;
+}
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    width: 20%;
+}

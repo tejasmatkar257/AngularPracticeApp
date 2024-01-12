@@ -1,0 +1,46 @@
+.card{
+    width: 400px;
+    margin: auto;
+    height: 350px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+input{
+    width: 200px;
+    margin: auto;
+}
+button{
+    width: 100px;
+    margin: auto;
+}
+
+.toggle-switch {
+    width: 60px;
+    height: 30px;
+    background-color: #00ff08;
+    position: relative;
+    cursor: pointer;
+    border-radius: 15px;
+  }
+  
+  .slider {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .on .slider {
+    transform: translateX(30px);
+  }
+  
+  .off .slider {
+    transform: translateX(0);
+  }
+  
